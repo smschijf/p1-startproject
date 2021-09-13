@@ -1,29 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 #foto {
     width: 20%;
     height: 20%;
+    padding-top: 40px;
 }
 
-footer {
+#footer-home {
     text-align: center;
     background-color: pink;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
 }
 
 h1 {
-    text-align: center;
-}
-
-ul {
-    display: table;
-    margin: 0 auto;
+    text-align: left;
+    font-size: 50px;
+    color: white;
+    padding-left: 40px;
+    padding-top: 20px;
 }
 
  body {
-    margin: 5%;
     font-family: 'Roboto', sans-serif;
  }
 
- #gegevens {
+ #home {
     background-color: pink;
+    padding: 20px;
+    padding-bottom: 160px;
+ }
+
+ nav {
+     text-align: right;
+ }
+
+ #intro {
+     font-size: 50px;
+     text-align: left;
+     color: white;
+     padding-left: 40px;
+ }
+
+ a {
+     color:white;
+ }
+
+ nav a {
+     margin-left: 20px;
+ }
+
+ nav a:hover {
+     font-weight: 900;
+ }
+
+ footer div {
+     margin: 0;
+ }
+
+ #footerlink {
+     width: 100%;
+ }
+
+ #copyright {
+     width: 100;
+     text-align: right;
+     margin-right: 50px;
+     font-size: 12px;
+ }
+
+ #hobbies {
+     padding-top: 40px;
+     padding-left: 40px;
+ }
+
+ #line {
+     border-left: 6px solid black;
+     margin-top: 40px;
+     margin-left: 40px;
+     padding-bottom: 40px;
+ }
+
+ #footer-aboutme {
+    text-align: center;
+    background-color: pink;
+    width: auto;
+    padding: 20px;
+ }
+
+ #aboutme {
+    background-color: pink;
+    padding: 20px;
  }
