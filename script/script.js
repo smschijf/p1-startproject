@@ -1,11 +1,10 @@
 function naam() {
     let txt;
-    let r = confirm("Wil je verder gaan?");
-    if (r == true) {
-        txt = "Je hebt op de knop geklikt :)";
-        alert(txt);
-    } else {
-        txt = "Waarom klikte je niet op de knop :(";
-        alert(txt);
+    let name = prompt("Wat is je naam?");
+    while (name == "") {
+        alert("Please type your name in the textfield")
+    let name = prompt("Wat is je naam?");
     }
+    alert("Hallo " + name);
+    alert(name + " krijgt een cookie!");
 }
